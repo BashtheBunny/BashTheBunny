@@ -22,7 +22,7 @@ svg {
   line-height: 21px;
 }
 
-#background {
+background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   fill: white;
@@ -32,7 +32,7 @@ svg {
   ry: 6px;
 }
 
-#gh-dark-mode-only:target #background {
+gh-dark-mode-only:target #background {
   fill: #0d1117;
   stroke-width: 0.5px;
 }
